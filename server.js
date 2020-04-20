@@ -5,7 +5,11 @@ const FeedbackService = require('./services/FeedbackService');
 const SpeakersService = require('./services/SpeakerService');
 
 const feedbackService = new FeedbackService('./data/feedback.json');
+<<<<<<< Updated upstream
 const speakersService = new SpeakersService('.data/speakers.json');
+=======
+const speakersService = new SpeakersService('./data/speakers.json');
+>>>>>>> Stashed changes
 
 const routes = require('./routes');
 

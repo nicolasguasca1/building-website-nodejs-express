@@ -6,7 +6,12 @@
     "node": true,
     "eslint.autoFixOnSave": true
   },
+<<<<<<< Updated upstream
   "extends": "eslint:recommended",
+=======
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+>>>>>>> Stashed changes
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
